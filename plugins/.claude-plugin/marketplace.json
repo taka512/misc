@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "commit",
-      "source": "./develop",
+      "source": "./commit",
       "description": "ローカルの変更を元にgit commitを行う",
       "category": "development",
       "tags": ["development"]

@@ -1,3 +1,14 @@
+## Claude.md
+
+CLAUDE.mdの最適化
+https://qiita.com/nogataka/items/d6c83ea50b82e1c2602c
+
+ClaudeCodeの基礎
+https://qiita.com/K5K/items/72cc4282819ace823524
+
+## CLAUDEベストプラクティス
+
+https://code.claude.com/docs/ja/best-practices
 
 ## 料金
 
@@ -23,6 +34,15 @@ npm install -g @anthropic-ai/claude-code
 ```
 
 [利用料のページ](https://claude.ai/settings/usage)
+
+
+## 設定
+
+プロジェクト共通の設定
+```
+.claude/settings.json
+```
+
 ## MCP
 
 **Claude Desktopでのmcpの設定**
@@ -118,7 +138,16 @@ claudeコマンドを実行すると、Claude Codeが起動し、プロンプト
 
 # 今読み込んでいるメモリーを確認
 /memory
+
+# 安全な作業を事前承認
+/permissions
 ```
+
+## hook
+
+Hooksで例外なく実行する
+Hooksは、Claude Codeのライフサイクルに合わせてコマンドを実行する仕組みです。
+公式ドキュメントでは、`PreToolUse`、`PostToolUse`、`UserPromptSubmit`、`Stop`、`SessionStart` などのイベントが説明されています。
 
 ## Sub agents
 

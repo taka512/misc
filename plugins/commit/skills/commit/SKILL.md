@@ -1,5 +1,5 @@
 ---
-name: bill-commit
+name: commit
 description: gitコミットを作成
 allowed-tools:
   - Bash(git add:*)
@@ -16,7 +16,7 @@ gitコミットを作成します。
 ## 使い方
 
 ```
-/bill-commit
+/commit
 ```
 
 ## Context
