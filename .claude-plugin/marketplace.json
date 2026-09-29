@@ -14,7 +14,22 @@
       "source": "./plugins/commit",
       "description": "ローカルの変更を元にgit commitを行う",
       "category": "development",
-      "tags": ["development"]
+      "tags": [
+        "development"
+      ]
+    },
+    {
+      "name": "instructional-video",
+      "source": "./plugins/instructional-video",
+      "description": "台本・静止画・録画からナレーションと字幕を同期させた説明動画を制作・修正",
+      "category": "video",
+      "tags": [
+        "video",
+        "ffmpeg",
+        "narration",
+        "subtitle",
+        "tts"
+      ]
     }
   ]
 }

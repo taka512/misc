@@ -43,6 +43,7 @@ taka512 の開発用 Claude Code プラグイン（スキル）集です。マ�
 | プラグイン名 | カテゴリ | 説明 |
 |-------------|---------|------|
 | `commit` | development | ローカルの変更を元にgit commitを行う |
+| `instructional-video` | video | 台本・静止画・録画からナレーションと字幕を同期させた説明動画を制作（要 FFmpeg / Pillow / NumPy / edge-tts） |
 
 ---
 

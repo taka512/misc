@@ -1,0 +1,10 @@
+{
+  "name": "instructional-video",
+  "description": "台本・静止画・録画からナレーションと字幕を同期させた説明動画を制作",
+  "version": "1.0.0",
+  "author": {
+    "name": "taka512"
+  },
+  "repository": "https://github.com/taka512/memo",
+  "keywords": ["video", "ffmpeg", "narration", "subtitle", "tts"]
+}
