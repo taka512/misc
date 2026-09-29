@@ -48,3 +48,15 @@ https://github.com/obra/superpowers
 /plugin marketplace add obra/superpowers-marketplace
 /plugin install superpowers@superpowers-marketplace
 ```
+
+
+## claude design
+
+
+インストール
+
+```
+claude mcp add --scope user --transport http claude-design https://api.anthropic.com/v1/design/mcp
+
+/design-login
+```
