@@ -8,7 +8,8 @@
 ```
 bookmark/ ブックマーク
 docs/ 手動でまとめたメモ
-plugin/ skillsなど
+plugins/ Claude Code プラグイン(skills)。使い方・追加手順は plugins/README.md
+.claude-plugin/ プラグインマーケットプレイスのカタログ
 ```
 
 # 過去のメモ(wiki)

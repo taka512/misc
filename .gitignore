@@ -3,3 +3,5 @@ auto-generated/
 .obsidian/community-plugins.json
 .obsidian/plugins/
 node_modules
+.DS_Store
+__pycache__/

@@ -4,5 +4,7 @@
   "version": "1.0.0",
   "author": {
     "name": "taka512"
-  }
+  },
+  "repository": "https://github.com/taka512/memo",
+  "keywords": ["development", "git"]
 }
