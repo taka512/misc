@@ -14,4 +14,4 @@ plugins/ Claude Code プラグイン(skills)。使い方・追加手順は plugi
 
 # 過去のメモ(wiki)
 
-https://github.com/taka512/memo/wiki
+https://github.com/taka512/misc/wiki

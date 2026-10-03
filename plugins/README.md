@@ -8,10 +8,10 @@ taka512 の開発用 Claude Code プラグイン（スキル）集です。マ�
 
 ```bash
 # GitHub経由で追加
-/plugin marketplace add taka512/memo
+/plugin marketplace add taka512/misc
 
 # またはローカルパスで追加
-/plugin marketplace add /path/to/memo
+/plugin marketplace add /path/to/misc
 ```
 
 ### 2. プラグインをインストール
@@ -52,7 +52,7 @@ taka512 の開発用 Claude Code プラグイン（スキル）集です。マ�
 ### 1. ディレクトリ構成
 
 ```
-memo/
+misc/
 ├── .claude-plugin/
 │   └── marketplace.json          # マーケットプレイスのカタログ
 └── plugins/
@@ -80,7 +80,7 @@ memo/
   "author": {
     "name": "taka512"
   },
-  "repository": "https://github.com/taka512/memo",
+  "repository": "https://github.com/taka512/misc",
   "keywords": ["development"]
 }
 ```
