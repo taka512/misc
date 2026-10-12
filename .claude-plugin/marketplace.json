@@ -19,8 +19,8 @@
       ]
     },
     {
-      "name": "instructional-video",
-      "source": "./plugins/instructional-video",
+      "name": "make-video",
+      "source": "./plugins/make-video",
       "description": "台本・静止画・録画からナレーションと字幕を同期させた説明動画を制作・修正",
       "category": "video",
       "tags": [

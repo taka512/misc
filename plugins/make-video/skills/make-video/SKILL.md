@@ -1,5 +1,5 @@
 ---
-name: instructional-video-production
+name: make-video
 description: 台本・静止画・画面録画から、ナレーションと字幕を同期させた説明動画（機能紹介・操作説明）を制作・修正する。「説明動画を作って」「この録画にナレーションと字幕を付けて」「操作説明の動画を修正して」などの依頼で使う。
 ---
 
@@ -29,7 +29,7 @@ bash <スキルのディレクトリ>/scripts/setup_env.sh           # 不足分
 ```
 
 - FFmpeg は Homebrew（macOS）または apt（Linux、sudo が必要）で導入する。どちらも使えない環境では手動導入を案内して止まる。
-- Python ライブラリは専用の仮想環境（既定 `~/.cache/instructional-video/venv`、`VIDEO_VENV` で変更可）に入れる。以降の Python 実行は `<venv>/bin/python`、音声生成は `<venv>/bin/edge-tts` を使う。
+- Python ライブラリは専用の仮想環境（既定 `~/.cache/make-video/venv`、`VIDEO_VENV` で変更可）に入れる。以降の Python 実行は `<venv>/bin/python`、音声生成は `<venv>/bin/edge-tts` を使う。
 - 導入後も、各ツールの最新の使い方や利用可能な音声・フォントは実行時に確認する。
 
 | ツール | 用途 |

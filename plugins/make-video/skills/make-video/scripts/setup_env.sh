@@ -4,12 +4,12 @@
 #   setup_env.sh           不足分を導入する
 #   setup_env.sh --check   確認のみ（不足があれば終了コード 1）
 #
-# Python ライブラリは専用の仮想環境に入れる（既定: ~/.cache/instructional-video/venv）。
+# Python ライブラリは専用の仮想環境に入れる（既定: ~/.cache/make-video/venv）。
 # 場所は環境変数 VIDEO_VENV で変更できる。導入後は "$VIDEO_VENV/bin/python" を使う。
 
 set -euo pipefail
 
-VENV="${VIDEO_VENV:-${XDG_CACHE_HOME:-$HOME/.cache}/instructional-video/venv}"
+VENV="${VIDEO_VENV:-${XDG_CACHE_HOME:-$HOME/.cache}/make-video/venv}"
 PY_PACKAGES=(pillow numpy edge-tts)
 CHECK_ONLY=false
 [[ "${1:-}" == "--check" ]] && CHECK_ONLY=true
